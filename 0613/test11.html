@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html5 구조</title>
+    <style>
+        body{
+            background-color: #efe5d0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: #e3afed;
+            color: #000000;
+            margin: 0px;
+            text-align: center;
+            padding: 5px;
+        }
+        h1{
+            margin: 0px;
+        }
+        section#main{
+            display: table-cell;
+            background-color: yellow;
+            padding: 15px;
+        }
+        nav{
+            display: table-cell;
+            background-color: #ffd800;
+            padding: 15px;
+        }
+        footer{
+            background-color: #954b4b;
+            color: #efe5d0;
+            text-align: center;
+            padding: 10px;
+            margin: 0px 0px 0px 0px;
+            font-size: 90%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Blog Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.w3.org/">W3C</a></li>
+            <li><a href="https://www.naver.com/">네이버</a></li>
+            <li><a href="https://www.daum.net/">다음</a></li>
+        </ul>
+        <figure>
+            <img width="85" height="85" src="img/sea.jpg" alt="바다">
+            <figcaption>바다</figcaption>
+        </figure>
+    </nav>
+    <section id="main">
+        <article>
+            <h1>Semantic Tags</h1>
+            <p>
+                바다란, 지구에서 저지대를 채우고 있는 하나의 거대한 소금물 덩어리를 가리킨다.
+                고여 있는 바닷물의 표면, 즉 해수면보다 더 높은 지대를 이루어 드러난
+                지표면을 뭍 혹은 육지라고 부른다. 바다는 지구 표면 대부분을 덮어 하나의 
+                커다란 권역을 이루고 있다.
+            </p>
+        </article>
+        <article>
+            <h1>바다에 대한 내용</h1>
+            <p>
+                바다란, 지구에서 저지대를 채우고 있는 하나의 거대한 소금물 덩어리를 가리킨다.
+                고여 있는 바닷물의 표면, 즉 해수면보다 더 높은 지대를 이루어 드러난
+                지표면을 뭍 혹은 육지라고 부른다. 바다는 지구 표면 대부분을 덮어 하나의 
+                커다란 권역을 이루고 있다.
+            </p>
+        </article>
+    </section>
+    <footer>
+        Copyright(c) 2022 Kim
+    </footer>
+</body>
+</html>

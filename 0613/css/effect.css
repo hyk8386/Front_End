@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    font-family: serif;
+    color: black;
+}
+h2{
+    color: yellow;
+}
+p.first{color: aliceblue;}
+p.second{color: aqua;}
